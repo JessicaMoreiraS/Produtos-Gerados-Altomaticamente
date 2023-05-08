@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Urbanist&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Produtos Altomaticos</title>
+</head>
+<body onload="carregarProdutos()">
+    <header>
+        <nav>
+            <a href="#"  onclick="opcoesProdutos()" class="dropbtn">Todos os produtos</a>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Cafés importados</a>
+                <a href="#">Cafés Brasileiros</a>
+                <a href="#">Filtros de café</a>
+                <a href="#">Utensílho</a>
+              </div>
+            <a href="#">Quem Somos</a>
+            <a href="#">Contate-nos</a>
+        </nav>
+        <div class="principalHeader">
+            <div class="areaNome">
+                <h1>My_Coffe</h1>
+                <img class="logo" src="imagens/logo.png" alt="logo">
+                
+                <a href="#main">
+                    <button class="headerBtn">
+                        Gostaria de uma xicara de café?
+                        <div class="heart1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path>
+                            </svg>
+                        </div>
+                        <div class="heart2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path>
+                            </svg>
+                        </div>
+                        <div class="heart3">         
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </a>
+    
+            </div>
+            <div class="areaImg">
+                <img src="imagens/header.jpg" alt="imagem dizendo que com café tudo fica melhor">
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="temaArea">
+            <h2>Produtos</h2>
+        </div>
+        <div id="containerPrincipal"></div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/JessicaMoreiraS">@Jéssica_Moreira</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
